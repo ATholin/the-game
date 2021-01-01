@@ -8,7 +8,7 @@
                 @include('partials.game-button')
             </div>
         @else
-            <a class="text-center text-2xl font-bold underline" href="{{ route('provider.redirect', 'google') }}">Log in with Google to start your game!</a>
+            <a class="flex justify-center text-2xl font-bold underline text-blue-500 hover:text-blue-400 active:text-blue-600 transition-colors duration-200" href="{{ route('provider.redirect', 'google') }}">Log in with Google to start your game!</a>
         @endauth
 
     </div>
