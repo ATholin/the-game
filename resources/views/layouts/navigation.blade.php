@@ -4,7 +4,7 @@
         <div class="flex justify-between h-16">
             <div class="py-4">
                 <!-- Text -->
-                <a href="{{ route('home') }}" class="text-6xl font-black">
+                <a href="{{ route('home') }}" class="text-2xl sm:text-4xl lg:text-6xl font-black">
                     The Game
                 </a>
                 <a class="text-blue-500 underline" href="https://en.wikipedia.org/wiki/The_Game_(mind_game)" target="_blank">?</a>

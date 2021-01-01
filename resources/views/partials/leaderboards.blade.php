@@ -9,11 +9,11 @@
         </button>
     </div>
 
-    <div x-show="tab === 0">
+    <div x-show="tab === 0" x-cloak>
         <livewire:active-game-leaderboard />
     </div>
 
-    <div x-show="tab == 1">
+    <div x-show="tab == 1" x-cloak>
         <livewire:full-game-leaderboard />
     </div>
 </div>
